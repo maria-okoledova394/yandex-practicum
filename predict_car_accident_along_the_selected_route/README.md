@@ -16,5 +16,10 @@ To understand whether it is possible to predict an accident based on historical 
 3. Analyze the results, compare quality metric, time of work, features importance.
 4. Conclude is it possible to create an accident risk assessment system.
 
+### Conclusion
+The best model is CatBoostClassifier model with f1 = 0.69 in the test sample.
+
+The current model predicts slightly better than the basic one. On this dataset, the task of creating an adequate risk assessment system cannot be resolved. Perhaps it is possible to create good accident forecasting system if add features: the speed of the car at the time of the accident, age, experience of the driver.
+
 ### Libraries used
 `pandas`, `scikit-learn`, `CatBoost`, `Matplotlib`, `SQLAlchemy`, `seaborn`
