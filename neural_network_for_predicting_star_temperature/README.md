@@ -15,5 +15,9 @@ To develop a neural network that will predict the absolute temperature on the su
 3. Make improvements to the neural network.
 3. Analyze models and recommend the best for customer's criteria.
 
+### Conclusion
+I built the base model of a neural network, found optimal number of hidden layers, neurons, activation function, initialization of weights.
+Improved the RMSE of the model by tuning the model parameters. The RMSE = 3658 of the improved model is on the test data. It's better than the required RNSE of 4500, however, the model performs well in predicting low temperatures and less effectively with high temperatures.
+
 ### Libraries used
 `pandas`, `PyTorch`, `scikit-learn`, `NumPy`, `Matplotlib`
