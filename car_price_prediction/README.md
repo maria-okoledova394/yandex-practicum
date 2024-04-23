@@ -17,5 +17,8 @@ To build a model for predicting the cost of cars in accordance with the criteria
 2. Train models `LinearRegression`, `RandomForestRegressor`, `CatBoostRegressor`, `LGBMRegressor`. Find optimal parameters for them.
 3. Analyze models and recommend the best for customer's criteria.
 
+### Conclusion
+The LGBMRegressor model turned out to be the best model for customer's criteria: prediction quality, training time and prediction time. The value of the RMSE metric = 1535 in the test sample, the training time is 1.93 seconds, the prediction time is 0.3 seconds.
+
 ### Libraries used
 `pandas`, `scikit-learn`, `LightGBM`, `CatBoost`, `NumPy`, `Matplotlib`
